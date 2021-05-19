@@ -1,0 +1,740 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+    padding-left: 0;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    text-align: center;
+    margin-bottom: 45px;
+}
+.title h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.title img{
+    margin-left: -70px;
+}
+ /*======================================================================================
+   header-part start
+===============================================================================================*/
+header .heading{
+    background: #0872b9;
+    padding: 10px 0;
+}
+header .heading .shob{
+    text-align: left;
+}
+header .heading .shob h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+header .heading .shob-2{
+    text-align: right;
+}
+header .heading .shob-2 ul{
+    display: inline-flex;
+    padding-left: 0 !important;
+    margin-bottom: 0;
+}
+header .heading .shob-2 ul li{
+    margin-left: 28px;
+}
+header .heading .shob-2 ul li a{
+    font-size: 15px;
+    color: #ffffff;
+    transition: .5s;
+}
+header .heading .shob-2 ul li a:hover{
+    color: #353535;
+}
+ /*======================================================================================
+   header-part end
+===============================================================================================*/
+ /*======================================================================================
+   navbar-part start
+===============================================================================================*/
+nav img{
+    width: 100%;
+}
+nav ul{
+    margin-left: auto;
+}
+nav ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #353535 !important;
+    transition: .5s;
+}
+nav ul li a:hover{
+    color: #0872b9 !important;
+}
+ /*======================================================================================
+   navbar-part end
+===============================================================================================*/
+ /*======================================================================================
+   banner-part start
+===============================================================================================*/
+#banner-part .prev{
+    font-size: 40px;
+    color: #ffffff;
+    position: absolute;
+    top: 45%;
+    left: 3%;
+    z-index: 999;
+    transition: .5s;
+}
+#banner-part .nxt{
+    font-size: 40px;
+    color: #ffffff;
+    position: absolute;
+    top: 45%;
+    right: 3%;
+    transition: .5s;
+}
+#banner-part .banner{
+    background: url(../images/b.png) no-repeat center;
+    background-size: cover;
+}
+#banner-part .banner .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    padding: 90px 0;
+}
+#banner-part .banner .overlay .button{
+    text-align: right;
+}
+#banner-part .banner .overlay .button a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 10px 20px;
+    margin-left: 20px;
+    transition: .5s;
+}
+#banner-part .banner .overlay .details{
+    color: #ffffff;
+    text-align: right;
+}
+#banner-part .banner .overlay .details p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 485px;
+    margin-left: auto;
+    line-height: 30px;
+    padding-bottom: 35px;
+}
+#banner-part .banner .overlay .details h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+#banner-part .banner .overlay .details h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 35px;
+    text-transform: uppercase;
+}
+#banner-part .banner-banner2{
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+}
+#banner-part .banner-banner2 .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    padding: 90px 0;
+}
+#banner-part .banner-banner2 .overlay .button{
+    text-align: right;
+}
+#banner-part .banner-banner2 .overlay .button a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 10px 20px;
+    margin-left: 20px;
+    transition: .5s;
+}
+#banner-part .banner-banner2 .overlay .details{
+    color: #ffffff;
+    text-align: right;
+}
+#banner-part .banner-banner2 .overlay .details p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 485px;
+    margin-left: auto;
+    line-height: 30px;
+    padding-bottom: 35px;
+}
+#banner-part .banner-banner2 .overlay .details h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+#banner-part .banner-banner2 .overlay .details h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 35px;
+    text-transform: uppercase;
+}
+#banner-part .banner-banner3{
+    background: url(../images/banner_03.jpg) no-repeat center;
+    background-size: cover;
+}
+#banner-part .banner-banner3 .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    padding: 90px 0;
+}
+#banner-part .banner-banner3 .overlay .button{
+    text-align: right;
+}
+#banner-part .banner-banner3 .overlay .button a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 10px 20px;
+    margin-left: 20px;
+    transition: .5s;
+}
+#banner-part .banner-banner3 .overlay .details{
+    color: #ffffff;
+    text-align: right;
+}
+#banner-part .banner-banner3 .overlay .details p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 485px;
+    margin-left: auto;
+    line-height: 30px;
+    padding-bottom: 35px;
+}
+#banner-part .banner-banner3 .overlay .details h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+#banner-part .banner-banner3 .overlay .details h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 35px;
+    text-transform: uppercase;
+}
+#banner-part .banner .overlay .button a:hover{
+    background: #0872b9;
+    border: 2px solid transparent;
+}
+#banner-part .banner-banner2 .overlay .button a:hover{
+    background: #0872b9;
+    border: 2px solid transparent;
+}
+#banner-part .banner-banner3 .overlay .button a:hover{
+    background: #0872b9;
+    border: 2px solid transparent;
+}
+#banner-part .prev:hover{
+    color: #0872b9;
+}
+#banner-part .nxt:hover{
+    color: #0872b9;
+}
+ /*======================================================================================
+   banner-part end
+===============================================================================================*/
+ /*======================================================================================
+   about-part start
+===============================================================================================*/
+#about-part .aboutultra{
+    margin-top: 65px;
+}
+#about-part .aboutultra .details p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #555555;
+    width: 540px;
+    line-height: 25px;
+    padding-top: 45px;
+    margin-left: 40px;
+}
+#about-part .aboutultra .details .last{
+    padding-top: 40px;
+}
+#about-part .aboutultra .secular{
+    position: relative;
+}
+#about-part .aboutultra .image{
+    height: 265px;
+    background: url(../images/baka.png) no-repeat center;
+    background-size: cover;
+    transform: translatex(-2%);
+}
+#about-part .aboutultra .coto {
+	height: 265px;
+	background: #f1f1f1;
+	width: 385px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	clip-path: polygon(0 0, 86% 0, 98% 100%, 0% 100%);
+    text-align: center;
+}
+#about-part .aboutultra .coto img{
+    margin-top: 13px;
+}
+ /*======================================================================================
+   about-part end
+===============================================================================================*/
+ /*======================================================================================
+   service-part start
+===============================================================================================*/
+#service-part .service-ultra{
+    margin-top: 65px;
+}
+#service-part .service-ultra .title{
+    margin-bottom: 70px;
+}
+#service-part .service-ultra .service{
+    background: #f1f1f1;
+    position: relative;
+    transition: .5s;
+}
+#service-part .service-ultra .service .text{
+    text-align: center;
+    padding-top: 55px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+}
+#service-part .service-ultra .service .text h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #353535;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+#service-part .service-ultra .service .text p {
+	font-size: 15px;
+	font-weight: 400;
+	color: #353535;
+	line-height: 24px;
+	width: 320px;
+	margin: 0 auto;
+}
+#service-part .service-ultra .service .round{
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    position: absolute;
+    background: #fff;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#service-part .service-ultra .service .round .border-round{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 1px solid #f1f1f1;
+    position: absolute;
+    background: #fff;
+    top: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .5s;
+}
+#service-part .service-ultra .service .round .border-round .round3{
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    position: absolute;
+    background: #f1f1f1;
+    top: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    transition: .5s;
+}
+#service-part .service-ultra .service .round .border-round .round3 img{
+    margin-top: 12px;
+}
+#service-part .service-ultra .service:hover{
+    /* -webkit-box-shadow: -1px 19px 25px 0px rgba(0,0,0,0.23);
+    -moz-box-shadow: -1px 19px 25px 0px rgba(0,0,0,0.23);
+    box-shadow: -1px 19px 25px 0px rgba(0,0,0,0.23); */
+    filter: drop-shadow(0 0 0.10rem #353535);
+    border: #e1e1e1;
+}
+#service-part .service-ultra .service:hover .round .border-round .round3{
+    background: #5bc5f4;
+}
+#service-part .service-ultra .service:hover .round .border-round{
+    border: 1px solid #5bc5f4;
+}
+ /*======================================================================================
+   service-part end
+===============================================================================================*/
+ /*======================================================================================
+   portfolio-part start
+===============================================================================================*/
+#portfolio-part .portfolio-ultra .item:nth-child(even){
+    display: flex;
+    flex-direction: column-reverse;
+}
+#portfolio-part .portfolio-ultra{
+    margin-top: 60px;
+}
+#portfolio-part .portfolio-ultra .image{
+    margin-bottom: 20px;
+    position: relative;
+}
+#portfolio-part .portfolio-ultra .image .overlay{
+    width: 100%;
+    height: 0;
+    background: rgba(53, 53, 53,.6);
+    position: absolute;
+    left: 0;
+    transition: .5s;
+    opacity: 0;
+    bottom: 100%;
+}
+#portfolio-part .portfolio-ultra .image .overlay a{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #5bc5f4;
+    color: #f1f1f1;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translateX(-50%);
+}
+#portfolio-part .portfolio-ultra .image img{
+    width: 100%;
+}
+#portfolio-part .portfolio-ultra .image:hover .overlay{
+    opacity: 1;
+    bottom: 0;
+    height: 100%;
+}
+ /*======================================================================================
+   portfoli-part end
+===============================================================================================*/
+ /*======================================================================================
+   team-part start
+===============================================================================================*/
+#team-part .team-ultra{
+    margin-top: 60px;
+}
+#team-part .team-ultra .team{
+    margin: 0 10px;
+}
+#team-part .team-ultra .team .image{
+    background: #f1f1f1;
+    text-align: center;
+    position: relative;
+    transition: .10s;
+    filter: drop-shadow(0 0 0.0 #353535);
+}
+#team-part .team-ultra .team .text{
+    text-align: center;
+}
+#team-part .team-ultra .team .text h4{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #353535;
+    text-transform: uppercase;
+    margin-top: 11px;
+    transition: .5s;
+}
+#team-part .team-ultra .team .text span{
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #353535;
+    text-transform: capitalize;
+}
+#team-part .team-ultra .team .image .overlay{
+    width: 0;
+    height: 100%;
+    background: rgba(53, 53, 53,.7);
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 1;
+    transition: .5s;
+}
+#team-part .team-ultra .team .image .overlay ul{
+    position: absolute;
+    top: 20%;
+    right: 30%;
+}
+#team-part .team-ultra .team .image .overlay ul li{
+    margin-bottom: 15px;
+}
+#team-part .team-ultra .team .image .overlay ul li  a{
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #f1f1f1;
+    border-radius: 50%;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    color: #f1f1f1;
+    transition: .5s;
+}
+#team-part .team-ultra .team .image img{
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 20px;
+}
+#team-part .team-ultra .team:hover .image{
+    filter: drop-shadow(0 0 0.10rem #353535);
+}
+#team-part .team-ultra .team:hover .image .overlay{
+    opacity: 1;
+    width: 35%;
+    right: 0;
+}
+#team-part .team-ultra .team .image .overlay ul li  a:hover{
+    background: #5bc5f4;
+    color: #ffffff;
+    border: 1px solid transparent;
+}
+#team-part .team-ultra .team:hover .text h4{
+    color: #5bc5f4;
+}
+ /*======================================================================================
+   team-part end
+===============================================================================================*/
+ /*======================================================================================
+   testomonial-part start
+===============================================================================================*/
+#testomonial-part .testomonial-ultra{
+    margin-top: 60px;
+}
+#testomonial-part .testomonial-ultra .test .round{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #e1e1e1;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+#testomonial-part .testomonial-ultra .test .texte{
+    text-align: center;
+    background: #f1f1f1;
+    padding: 25px;
+    position: relative;
+}
+#testomonial-part .testomonial-ultra .test .texte .shape{
+    width: 40px;
+    height: 40px;
+    background: #f1f1f1;
+    position: absolute;
+    top: -6px;
+    left: 49%;
+    transform: rotate(43deg) translateX(-50%);
+    border-radius: 5px;
+}
+#testomonial-part .testomonial-ultra .test .texte p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #353535;
+    line-height: 25px;
+    padding-top: 20px;
+}
+#testomonial-part .testomonial-ultra .test .texte span{
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #353535;
+    text-transform: uppercase;
+}
+#testomonial-part .testomonial-ultra .test .texte .ratings{
+    color: #5bc5f4;
+    padding-bottom: 10px;
+}
+#testomonial-part .testomonial-ultra .test .texte h4{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #353535;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+#testomonial-part .testomonial-ultra .test .round img{
+    width: 100%;
+    position: absolute;
+    top: 17px;
+    left: 0;
+}
+ /*======================================================================================
+   testomonial-part end
+===============================================================================================*/
+ /*======================================================================================
+   footfirst-part start
+===============================================================================================*/
+#footfirst-part .footer-ultra{
+    margin-top: 60px;
+    background: #353535;
+    padding: 35px 0;
+    color: #f1f1f1;
+}
+#footfirst-part .footer-ultra  h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+#footfirst-part .footer-ultra .foot-2 .fliker{
+    display: flex;
+    padding-top: 40px;
+}
+#footfirst-part .footer-ultra .foot-2 .fliker .address{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+#footfirst-part .footer-ultra .foot-2 .fliker .address p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #f1f1f1;
+    width: 125px;
+    line-height: 30px;
+}
+#footfirst-part .footer-ultra .foot-2 .fliker ul{
+    padding-left: 0;
+}
+#footfirst-part .footer-ultra .foot-2 .fliker ul li{
+    padding-top: 20px;
+}
+#footfirst-part .footer-ultra .foot-2 .fliker ul li a{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #5bc5f4;
+    color:#ffffff;
+    line-height: 35px;
+    text-align: center;
+    font-size: 16px;
+}
+#footfirst-part .footer-ultra .foot p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #f1f1f1 ;
+    line-height: 25px;
+    width: 217px;
+    padding-top: 30px;
+}
+#footfirst-part .footer-ultra .foot .top{
+    padding-top: 30px;
+}
+#footfirst-part .footer-ultra .foot-3 .full{
+    display: flex;
+    padding-top: 40px;
+}
+#footfirst-part .footer-ultra .foot-3 .full ul li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    transition: .5s;
+    color: #ffffff;
+}
+#footfirst-part .footer-ultra .foot-3 .full .baki{
+    padding-left: 30px;
+}
+#footfirst-part .footer-ultra .foot-4 .tiner{
+    padding-top: 40px;
+}
+#footfirst-part .footer-ultra .foot-4 .tiner .imag{
+    margin-bottom: 15px;
+}
+#footfirst-part .footer-ultra .foot-4 .tiner .imag img{
+    width: 90px;
+    height: 90px;
+    margin-left: 9px;
+}
+#footfirst-part .footer-ultra .foot-3 .full ul li:hover{
+    color: #5bc5f4;
+}
+ /*======================================================================================
+   footfirst-part end
+===============================================================================================*/
+ /*======================================================================================
+   footER-part start
+===============================================================================================*/
+footer{
+    background: #555555;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 10px 0;
+}
+footer p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+footer i{
+    padding-left: 5px;
+}
+footer span{
+    color: #5bc5f4; 
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+ /*======================================================================================
+   footER-part end
+===============================================================================================*/

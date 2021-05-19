@@ -1,0 +1,1152 @@
+@media (min-width: 320px) and (max-width: 575.98px){
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 .0;
+    }
+    .navbar-toggler {
+        background: #353535;
+        color: #ffffff;
+    }
+    .navbar-toggler span{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    nav{
+        position: absolute !important;
+        top: 55px;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        background: #ffffff;
+    }
+    nav ul{
+        text-align: center;
+        color: #ffffff;
+    }
+    /* ================================================================================ 
+       baner
+    =================================================================================*/
+    #banner-part .banner .overlay .details {
+        text-align: center;
+    }
+    #banner-part .banner .overlay .details h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    #banner-part .banner .overlay .details h1 {
+        font-size: 27px;
+        padding-bottom: 20px;
+    }
+    #banner-part .banner .overlay .details p {
+        font-size: 13px;
+        width: auto;
+        line-height: 25px;
+        padding-bottom: 30px;
+    }
+    #banner-part .banner .overlay .button {
+        text-align: center;
+    }
+    #banner-part .banner .overlay .button a {
+        margin-left: 10px;
+    }
+    #banner-part .banner .overlay {
+        padding: 80px 0;
+        padding-top: 120px;
+    }
+    #banner-part .slick-dots{
+        position: absolute !important;
+        top: 88%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #banner-part .slick-dots li{
+        display: inline-block;
+        padding-left: 10px;
+    }
+    #banner-part .slick-dots .slick-active button{
+        background: #ffffff;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    #banner-part .slick-dots li button{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 1px solid #ffffff;
+        background: transparent;
+        font-size: 0;
+    }
+    #banner-part .banner-banner2 .overlay .details {
+        text-align: center;
+    }
+    #banner-part .banner-banner2 .overlay .details h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    #banner-part .banner-banner2 .overlay .details h1 {
+        font-size: 27px;
+        padding-bottom: 20px;
+    }
+    #banner-part .banner-banner2 .overlay .details p {
+        font-size: 13px;
+        width: auto;
+        line-height: 25px;
+        padding-bottom: 30px;
+    }
+    #banner-part .banner-banner2 .overlay .button {
+        text-align: center;
+    }
+    #banner-part .banner-banner2 .overlay .button a {
+        margin-left: 10px;
+    }
+    #banner-part .banner-banner2 .overlay {
+        padding: 80px 0;
+        padding-top: 120px;
+    }
+    #banner-part .banner-banner3 .overlay .details {
+        text-align: center;
+    }
+    #banner-part .banner-banner3 .overlay .details h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    #banner-part .banner-banner3 .overlay .details h1 {
+        font-size: 27px;
+        padding-bottom: 20px;
+    }
+    #banner-part .banner-banner3 .overlay .details p {
+        font-size: 13px;
+        width: auto;
+        line-height: 25px;
+        padding-bottom: 30px;
+    }
+    #banner-part .banner-banner3 .overlay .button {
+        text-align: center;
+    }
+    #banner-part .banner-banner3 .overlay .button a {
+        margin-left: 10px;
+    }
+    #banner-part .banner-banner3 .overlay {
+        padding: 80px 0;
+        padding-top: 120px;
+    }
+    /* ==========================================================================================
+      about
+    ====================================================================*/
+    #about-part .aboutultra .details p {
+        width: auto;
+        padding-top: 30px;
+        margin-left: 0;
+    }
+    #about-part .aboutultra .image {
+        height: 265px;
+        /* background: url(../images/baka.png) no-repeat center; */
+    }
+    #about-part .aboutultra .coto img {
+        margin-top: 10px;
+    }
+    #about-part .aboutultra .coto {
+        width: 320px;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        text-align: center;
+    }
+    /* ===========================================================================================
+       service
+    ============================================================================*/
+    #service-part .service-ultra .service {
+        margin-bottom: 58px;
+    }
+    #service-part .service-ultra .service .text h3 {
+        padding-bottom: 15px;
+    }
+    #service-part .service-ultra .service .text p {
+        font-size: 13px;
+        width: auto;
+        margin: 0 auto;
+    }
+    #service-part .service-ultra .service .text {
+        padding-top: 45px;
+    }
+    /* ==============================================================================
+      team
+    ==============================================================*/
+    #team-part .slick-dots{
+        position: absolute !important;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 30px;
+    }
+    #team-part .slick-dots li{
+        display: inline-block;
+        padding-left: 4px;
+    }
+    #team-part .slick-dots .slick-active button{
+        background: #353535;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    #team-part .slick-dots li button{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 1px solid #353535;
+        background: transparent;
+        font-size: 0;
+    }
+    /* ===================================================================================
+     testomonial
+    ==================================================================================*/
+    #testomonial-part{
+        margin-top: 110px;
+    }
+    #testomonial-part .test{
+        margin-bottom: 15px;
+   }
+    /* =====================================================================
+     foot
+    =======================================================================*/
+    #footfirst-part .footer-ultra .foot{
+        text-align: center;
+    }
+    #footfirst-part .footer-ultra .foot p {
+        width: auto;
+    }
+    #footfirst-part .footer-ultra .foot .top {
+        padding-top: 20px;
+    }
+    #footfirst-part .footer-ultra .foot-2{
+        text-align: center;
+        margin-top: 50px;
+    }
+    #footfirst-part .footer-ultra .foot-2 .fliker {
+        display: block;
+        padding-top: 0;
+    }
+    #footfirst-part .footer-ultra .foot-2 .fliker ul {
+        padding-left: 0;
+        display: inline-flex;
+    }
+    #footfirst-part .footer-ultra .foot-2 .fliker ul li {
+        padding-left: 10px;
+    }
+    #footfirst-part .footer-ultra .foot-2 .fliker .address p {
+        width: auto;
+        line-height: 25px;
+    }
+    #footfirst-part .footer-ultra .foot-4{
+        text-align: center;
+    }
+    #footfirst-part .footer-ultra .foot-4 .tiner .imag img {
+        margin-left: 5px;
+    }
+    #footfirst-part .footer-ultra .foot-4 .tiner {
+        text-align: center;
+    }
+    #footfirst-part .footer-ultra .foot-4 .tiner .imag {
+        margin-bottom: 8px;
+    }
+    #footfirst-part .footer-ultra .foot-3{
+        text-align: center;
+        margin-top: 50px;
+    }
+    #footfirst-part .footer-ultra .foot-3 .full {
+        display: inline-flex;
+        padding-top: 40px;
+    }
+    #footfirst-part .footer-ultra .foot-3 .full .baki {
+        padding-left: 30px;
+        margin: auto 0;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 .0;
+    }
+    .navbar-toggler {
+        background: #353535;
+        color: #ffffff;
+    }
+    .navbar-toggler span{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    nav{
+        position: absolute !important;
+        top: auto;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        background: #ffffff;
+    }
+    nav ul{
+        text-align: center;
+        color: #ffffff;
+    }
+    /* ================================================================================ 
+       baner
+    =================================================================================*/
+    #banner-part .banner .overlay .details {
+        text-align: center;
+    }
+    #banner-part .banner .overlay .details h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    #banner-part .banner .overlay .details h1 {
+        font-size: 27px;
+        padding-bottom: 20px;
+    }
+    #banner-part .banner .overlay .details p {
+        font-size: 13px;
+        width: auto;
+        line-height: 25px;
+        padding-bottom: 30px;
+    }
+    #banner-part .banner .overlay .button {
+        text-align: center;
+    }
+    #banner-part .banner .overlay .button a {
+        margin-left: 10px;
+    }
+    #banner-part .banner .overlay {
+        padding: 80px 0;
+        padding-top: 120px;
+    }
+    #banner-part .slick-dots{
+        position: absolute !important;
+        top: 88%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #banner-part .slick-dots li{
+        display: inline-block;
+        padding-left: 10px;
+    }
+    #banner-part .slick-dots .slick-active button{
+        background: #ffffff;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    #banner-part .slick-dots li button{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 1px solid #ffffff;
+        background: transparent;
+        font-size: 0;
+    }
+    #banner-part .banner-banner2 .overlay .details {
+        text-align: center;
+    }
+    #banner-part .banner-banner2 .overlay .details h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    #banner-part .banner-banner2 .overlay .details h1 {
+        font-size: 27px;
+        padding-bottom: 20px;
+    }
+    #banner-part .banner-banner2 .overlay .details p {
+        font-size: 13px;
+        width: auto;
+        line-height: 25px;
+        padding-bottom: 30px;
+    }
+    #banner-part .banner-banner2 .overlay .button {
+        text-align: center;
+    }
+    #banner-part .banner-banner2 .overlay .button a {
+        margin-left: 10px;
+    }
+    #banner-part .banner-banner2 .overlay {
+        padding: 80px 0;
+        padding-top: 120px;
+    }
+    #banner-part .banner-banner3 .overlay .details {
+        text-align: center;
+    }
+    #banner-part .banner-banner3 .overlay .details h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    #banner-part .banner-banner3 .overlay .details h1 {
+        font-size: 27px;
+        padding-bottom: 20px;
+    }
+    #banner-part .banner-banner3 .overlay .details p {
+        font-size: 13px;
+        width: auto;
+        line-height: 25px;
+        padding-bottom: 30px;
+    }
+    #banner-part .banner-banner3 .overlay .button {
+        text-align: center;
+    }
+    #banner-part .banner-banner3 .overlay .button a {
+        margin-left: 10px;
+    }
+    #banner-part .banner-banner3 .overlay {
+        padding: 80px 0;
+        padding-top: 120px;
+    }
+    /* ==========================================================================================
+      about
+    ====================================================================*/
+    #about-part .aboutultra .details p {
+        width: auto;
+        padding-top: 30px;
+        margin-left: 0;
+    }
+    #about-part .aboutultra .image {
+        height: 265px;
+        transform: translatex(-25%);
+        margin-left: 94px;
+    }
+    #about-part .aboutultra .secular {
+        position: relative;
+        margin-left: 40px;
+    }
+    #about-part .aboutultra .coto img {
+        margin-top: 10px;
+    }
+    #about-part .aboutultra .coto {
+        height: 265px;
+        background: #f1f1f1;
+        width: 385px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        clip-path: polygon(0 0, 86% 0, 98% 100%, 0% 100%);
+        text-align: center;
+    }
+    /* ===========================================================================================
+       service
+    ============================================================================*/
+    #service-part .service-ultra .service {
+        margin-bottom: 58px;
+    }
+    #service-part .service-ultra .service .text h3 {
+        padding-bottom: 15px;
+    }
+    #service-part .service-ultra .service .text p {
+        font-size: 13px;
+        width: auto;
+        margin: 0 auto;
+    }
+    #service-part .service-ultra .service .text {
+        padding-top: 45px;
+    }
+    /* ==============================================================================
+      port
+    ==============================================================*/
+    #portfolio-part .portfolio-ultra .item:nth-child(2n) {
+        display: block;
+        /* flex-direction: column-reverse; */
+    }
+    /* ==============================================================================
+      team
+    ==============================================================*/
+    #team-part .team-ultra .team .image img {
+        width: 60%;
+    }
+    #team-part .team-ultra .team:hover .image .overlay {
+        width: 28%;
+    }
+    #team-part .team-ultra .team .image .overlay ul li a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 15px;
+    }
+    #team-part .team-ultra .team .image .overlay ul {
+        position: absolute;
+        top: 25%;
+        right: 25%;
+    }
+    #team-part .slick-dots{
+        position: absolute !important;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 30px;
+    }
+    #team-part .slick-dots li{
+        display: inline-block;
+        padding-left: 4px;
+    }
+    #team-part .slick-dots .slick-active button{
+        background: #353535;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    #team-part .slick-dots li button{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 1px solid #353535;
+        background: transparent;
+        font-size: 0;
+    }
+    /* ===================================================================================
+     testomonial
+    ==================================================================================*/
+    #testomonial-part{
+        margin-top: 110px;
+    }
+    #testomonial-part .test{
+        margin-bottom: 15px;
+   }
+    /* =====================================================================
+     foot
+    =======================================================================*/
+    #footfirst-part .footer-ultra .foot{
+        text-align: center;
+    }
+    #footfirst-part .footer-ultra .foot p {
+        width: auto;
+    }
+    #footfirst-part .footer-ultra .foot .top {
+        padding-top: 20px;
+    }
+    #footfirst-part .footer-ultra .foot-2{
+        text-align: center;
+        margin-top: 50px;
+    }
+    #footfirst-part .footer-ultra .foot-2 .fliker {
+        display: block;
+        padding-top: 0;
+    }
+    #footfirst-part .footer-ultra .foot-2 .fliker ul {
+        padding-left: 0;
+        display: inline-flex;
+    }
+    #footfirst-part .footer-ultra .foot-2 .fliker ul li {
+        padding-left: 10px;
+    }
+    #footfirst-part .footer-ultra .foot-2 .fliker .address p {
+        width: auto;
+        line-height: 25px;
+    }
+    #footfirst-part .footer-ultra .foot-4{
+        text-align: center;
+    }
+    #footfirst-part .footer-ultra .foot-4 .tiner .imag img {
+        margin-left: 5px;
+    }
+    #footfirst-part .footer-ultra .foot-4 .tiner {
+        text-align: center;
+    }
+    #footfirst-part .footer-ultra .foot-4 .tiner .imag {
+        margin-bottom: 8px;
+    }
+    #footfirst-part .footer-ultra .foot-3{
+        text-align: center;
+        margin-top: 50px;
+    }
+    #footfirst-part .footer-ultra .foot-3 .full {
+        display: inline-flex;
+        padding-top: 40px;
+    }
+    #footfirst-part .footer-ultra .foot-3 .full .baki {
+        padding-left: 30px;
+        margin: auto 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 .0;
+    }
+    .navbar-toggler {
+        background: #353535;
+        color: #ffffff;
+    }
+    .navbar-toggler span{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    nav{
+        position: absolute !important;
+        top: auto;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        background: #ffffff;
+    }
+    nav ul{
+        text-align: center;
+        color: #ffffff;
+    }
+    /* ================================================================================ 
+       baner
+    =================================================================================*/
+    #banner-part .banner .overlay .details {
+        text-align: center;
+    }
+    #banner-part .banner .overlay .details h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    #banner-part .banner .overlay .details h1 {
+        font-size: 27px;
+        padding-bottom: 20px;
+    }
+    #banner-part .banner .overlay .details p {
+        font-size: 13px;
+        width: auto;
+        line-height: 25px;
+        padding-bottom: 30px;
+    }
+    #banner-part .banner .overlay .button {
+        text-align: center;
+    }
+    #banner-part .banner .overlay .button a {
+        margin-left: 10px;
+    }
+    #banner-part .banner .overlay {
+        padding: 80px 0;
+        padding-top: 120px;
+    }
+    #banner-part .slick-dots{
+        position: absolute !important;
+        top: 88%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #banner-part .slick-dots li{
+        display: inline-block;
+        padding-left: 10px;
+    }
+    #banner-part .slick-dots .slick-active button{
+        background: #ffffff;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    #banner-part .slick-dots li button{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 1px solid #ffffff;
+        background: transparent;
+        font-size: 0;
+    }
+    #banner-part .banner-banner2 .overlay .details {
+        text-align: center;
+    }
+    #banner-part .banner-banner2 .overlay .details h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    #banner-part .banner-banner2 .overlay .details h1 {
+        font-size: 27px;
+        padding-bottom: 20px;
+    }
+    #banner-part .banner-banner2 .overlay .details p {
+        font-size: 13px;
+        width: auto;
+        line-height: 25px;
+        padding-bottom: 30px;
+    }
+    #banner-part .banner-banner2 .overlay .button {
+        text-align: center;
+    }
+    #banner-part .banner-banner2 .overlay .button a {
+        margin-left: 10px;
+    }
+    #banner-part .banner-banner2 .overlay {
+        padding: 80px 0;
+        padding-top: 120px;
+    }
+    #banner-part .banner-banner3 .overlay .details {
+        text-align: center;
+    }
+    #banner-part .banner-banner3 .overlay .details h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    #banner-part .banner-banner3 .overlay .details h1 {
+        font-size: 27px;
+        padding-bottom: 20px;
+    }
+    #banner-part .banner-banner3 .overlay .details p {
+        font-size: 13px;
+        width: auto;
+        line-height: 25px;
+        padding-bottom: 30px;
+    }
+    #banner-part .banner-banner3 .overlay .button {
+        text-align: center;
+    }
+    #banner-part .banner-banner3 .overlay .button a {
+        margin-left: 10px;
+    }
+    #banner-part .banner-banner3 .overlay {
+        padding: 80px 0;
+        padding-top: 120px;
+    }
+    /* ==========================================================================================
+      about
+    ====================================================================*/
+    #about-part .aboutultra .details p {
+        width: auto;
+        padding-top: 30px;
+        margin-left: 0;
+    }
+    #about-part .aboutultra .image {
+        height: 265px;
+        transform: translatex(-51%);
+        margin-left: 228px;
+    }
+    #about-part .aboutultra .secular {
+        position: relative;
+        margin-left: 40px;
+    }
+    #about-part .aboutultra .coto img {
+        margin-top: 10px;
+    }
+    #about-part .aboutultra .coto {
+        height: 265px;
+        background: #f1f1f1;
+        width: 385px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        clip-path: polygon(0 0, 86% 0, 98% 100%, 0% 100%);
+        text-align: center;
+    }
+    /* ===========================================================================================
+       service
+    ============================================================================*/
+    #service-part .service-ultra .service {
+        margin-bottom: 58px;
+    }
+    #service-part .service-ultra .service .text h3 {
+        padding-bottom: 15px;
+    }
+    #service-part .service-ultra .service .text p {
+        width: auto;
+        margin: 0 auto;
+    }
+    #service-part .service-ultra .service .text {
+        padding-top: 45px;
+    }
+    /* ==============================================================================
+      port
+    ==============================================================*/
+    #portfolio-part .portfolio-ultra .item:nth-child(2n) {
+        display: block;
+        /* flex-direction: column-reverse; */
+    }
+    /* ==============================================================================
+      team
+    ==============================================================*/
+    #team-part .team-ultra .team .image img {
+        width: 60%;
+    }
+    #team-part .team-ultra .team:hover .image .overlay {
+        width: 28%;
+    }
+    #team-part .team-ultra .team .image .overlay ul li a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 15px;
+    }
+    #team-part .team-ultra .team .image .overlay ul {
+        position: absolute;
+        top: 25%;
+        right: 25%;
+    }
+    #team-part .slick-dots{
+        position: absolute !important;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 30px;
+    }
+    #team-part .slick-dots li{
+        display: inline-block;
+        padding-left: 4px;
+    }
+    #team-part .slick-dots .slick-active button{
+        background: #353535;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    #team-part .slick-dots li button{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 1px solid #353535;
+        background: transparent;
+        font-size: 0;
+    }
+    /* ===================================================================================
+     testomonial
+    ==================================================================================*/
+    #testomonial-part{
+        margin-top: 110px;
+    }
+    #testomonial-part .test{
+        margin-bottom: 15px;
+   }
+    /* =====================================================================
+     foot
+    =======================================================================*/
+    #footfirst-part .footer-ultra .foot{
+        text-align: center;
+    }
+    #footfirst-part .footer-ultra .foot p {
+        width: auto;
+    }
+    #footfirst-part .footer-ultra .foot .top {
+        padding-top: 20px;
+    }
+    #footfirst-part .footer-ultra .foot-2{
+        text-align: center;
+        margin-top: 50px;
+    }
+    #footfirst-part .footer-ultra .foot-2 .fliker {
+        display: block;
+        padding-top: 0;
+    }
+    #footfirst-part .footer-ultra .foot-2 .fliker ul {
+        padding-left: 0;
+        display: inline-flex;
+    }
+    #footfirst-part .footer-ultra .foot-2 .fliker ul li {
+        padding-left: 10px;
+    }
+    #footfirst-part .footer-ultra .foot-2 .fliker .address p {
+        width: auto;
+        line-height: 25px;
+    }
+    #footfirst-part .footer-ultra .foot-4{
+        text-align: center;
+    }
+    #footfirst-part .footer-ultra .foot-4 .tiner .imag img {
+        margin-left: 5px;
+    }
+    #footfirst-part .footer-ultra .foot-4 .tiner {
+        text-align: center;
+    }
+    #footfirst-part .footer-ultra .foot-4 .tiner .imag {
+        margin-bottom: 8px;
+    }
+    #footfirst-part .footer-ultra .foot-3{
+        text-align: center;
+        margin-top: 50px;
+    }
+    #footfirst-part .footer-ultra .foot-3 .full {
+        display: inline-flex;
+        padding-top: 40px;
+    }
+    #footfirst-part .footer-ultra .foot-3 .full .baki {
+        padding-left: 30px;
+        margin: auto 0;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 .0;
+    }
+    .navbar-toggler {
+        background: #353535;
+        color: #ffffff;
+    }
+    .navbar-toggler span{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    nav{
+        position: absolute !important;
+        top: auto;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        background: #ffffff;
+    }
+    nav ul{
+        text-align: center;
+        color: #ffffff;
+    }
+    /* ================================================================================ 
+       baner
+    =================================================================================*/
+    #banner-part .banner .overlay .details {
+        text-align: center;
+    }
+    #banner-part .banner .overlay .details h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    #banner-part .banner .overlay .details h1 {
+        font-size: 27px;
+        padding-bottom: 20px;
+    }
+    #banner-part .banner .overlay .details p {
+        font-size: 15px;
+        line-height: 25px;
+        padding-bottom: 30px;
+        margin: 0 auto;
+    }
+    #banner-part .banner .overlay .button {
+        text-align: center;
+    }
+    #banner-part .banner .overlay .button a {
+        margin-left: 10px;
+    }
+    #banner-part .banner .overlay {
+        padding: 80px 0;
+        padding-top: 120px;
+    }
+    #banner-part .slick-dots{
+        position: absolute !important;
+        top: 88%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #banner-part .slick-dots li{
+        display: inline-block;
+        padding-left: 10px;
+    }
+    #banner-part .slick-dots .slick-active button{
+        background: #ffffff;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    #banner-part .slick-dots li button{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 1px solid #ffffff;
+        background: transparent;
+        font-size: 0;
+    }
+    #banner-part .banner-banner2 .overlay .details {
+        text-align: center;
+    }
+    #banner-part .banner-banner2 .overlay .details h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    #banner-part .banner-banner2 .overlay .details h1 {
+        font-size: 27px;
+        padding-bottom: 20px;
+    }
+    #banner-part .banner-banner2 .overlay .details p {
+        font-size: 15px;
+        line-height: 25px;
+        padding-bottom: 30px;
+        margin: 0 auto;
+    }
+    #banner-part .banner-banner2 .overlay .button {
+        text-align: center;
+    }
+    #banner-part .banner-banner2 .overlay .button a {
+        margin-left: 10px;
+    }
+    #banner-part .banner-banner2 .overlay {
+        padding: 80px 0;
+        padding-top: 120px;
+    }
+    #banner-part .banner-banner3 .overlay .details {
+        text-align: center;
+    }
+    #banner-part .banner-banner3 .overlay .details h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    #banner-part .banner-banner3 .overlay .details h1 {
+        font-size: 27px;
+        padding-bottom: 20px;
+    }
+    #banner-part .banner-banner3 .overlay .details p {
+        font-size: 15px;
+        line-height: 25px;
+        padding-bottom: 30px;
+        margin: 0 auto;
+    }
+    #banner-part .banner-banner3 .overlay .button {
+        text-align: center;
+    }
+    #banner-part .banner-banner3 .overlay .button a {
+        margin-left: 10px;
+    }
+    #banner-part .banner-banner3 .overlay {
+        padding: 80px 0;
+        padding-top: 120px;
+    }
+    /* ==========================================================================================
+      about
+    ====================================================================*/
+    #about-part .aboutultra .details p {
+        width: auto;
+        padding-top: 30px;
+        margin-left: 0;
+    }
+    #about-part .aboutultra .image {
+        height: 265px;
+        transform: translatex(-51%);
+        margin-left: 228px;
+    }
+    #about-part .aboutultra .secular {
+        position: relative;
+        margin-left: 40px;
+    }
+    #about-part .aboutultra .coto img {
+        margin-top: 10px;
+    }
+    #about-part .aboutultra .coto {
+        height: 265px;
+        background: #f1f1f1;
+        width: 385px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        clip-path: polygon(0 0, 86% 0, 98% 100%, 0% 100%);
+        text-align: center;
+    }
+    /* ===========================================================================================
+       service
+    ============================================================================*/
+    #service-part .service-ultra .service {
+        margin-bottom: 58px;
+    }
+    #service-part .service-ultra .service .text h3 {
+        padding-bottom: 15px;
+    }
+    #service-part .service-ultra .service .text p {
+        width: auto;
+        margin: 0 auto;
+    }
+    #service-part .service-ultra .service .text {
+        padding-top: 45px;
+    }
+    /* ==============================================================================
+      port
+    ==============================================================*/
+    #portfolio-part .portfolio-ultra .item:nth-child(2n) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    /* ==============================================================================
+      team
+    ==============================================================*/
+    #team-part .team-ultra .team .image img {
+        width: 60%;
+    }
+    #team-part .team-ultra .team:hover .image .overlay {
+        width: 28%;
+    }
+    #team-part .team-ultra .team .image .overlay ul li a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 15px;
+    }
+    #team-part .team-ultra .team .image .overlay ul {
+        position: absolute;
+        top: 25%;
+        right: 25%;
+    }
+    #team-part .slick-dots{
+        position: absolute !important;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 30px;
+    }
+    #team-part .slick-dots li{
+        display: inline-block;
+        padding-left: 4px;
+    }
+    #team-part .slick-dots .slick-active button{
+        background: #353535;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    #team-part .slick-dots li button{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 1px solid #353535;
+        background: transparent;
+        font-size: 0;
+    }
+    /* ===================================================================================
+     testomonial
+    ==================================================================================*/
+    #testomonial-part{
+        margin-top: 110px;
+    }
+    #testomonial-part .test{
+        margin-bottom: 15px;
+   }
+    /* =====================================================================
+     foot
+    =======================================================================*/
+    #footfirst-part .footer-ultra .foot{
+        text-align: center;
+    }
+    #footfirst-part .footer-ultra .foot p {
+        width: auto;
+    }
+    #footfirst-part .footer-ultra .foot .top {
+        padding-top: 20px;
+    }
+    #footfirst-part .footer-ultra .foot-2{
+        text-align: center;
+        margin-top: 50px;
+    }
+    #footfirst-part .footer-ultra .foot-2 .fliker {
+        display: block;
+        padding-top: 0;
+    }
+    #footfirst-part .footer-ultra .foot-2 .fliker ul {
+        padding-left: 0;
+        display: inline-flex;
+    }
+    #footfirst-part .footer-ultra .foot-2 .fliker ul li {
+        padding-left: 10px;
+    }
+    #footfirst-part .footer-ultra .foot-2 .fliker .address p {
+        width: auto;
+        line-height: 25px;
+    }
+    #footfirst-part .footer-ultra .foot-4{
+        text-align: center;
+    }
+    #footfirst-part .footer-ultra .foot-4 .tiner .imag img {
+        margin-left: 5px;
+    }
+    #footfirst-part .footer-ultra .foot-4 .tiner {
+        text-align: center;
+    }
+    #footfirst-part .footer-ultra .foot-4 .tiner .imag {
+        margin-bottom: 8px;
+    }
+    #footfirst-part .footer-ultra .foot-3{
+        text-align: center;
+        margin-top: 50px;
+    }
+    #footfirst-part .footer-ultra .foot-3 .full {
+        display: inline-flex;
+        padding-top: 40px;
+    }
+    #footfirst-part .footer-ultra .foot-3 .full .baki {
+        padding-left: 30px;
+        margin: auto 0;
+    }
+}
